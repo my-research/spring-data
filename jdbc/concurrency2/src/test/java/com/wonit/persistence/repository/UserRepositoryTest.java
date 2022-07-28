@@ -1,10 +1,9 @@
 package com.wonit.persistence.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
-import com.wonit.entity.Infos;
-import com.wonit.entity.User;
+import com.wonit.core.user.Infos;
+import com.wonit.core.user.User;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import org.junit.jupiter.api.Test;

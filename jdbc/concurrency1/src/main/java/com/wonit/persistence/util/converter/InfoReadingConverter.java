@@ -1,6 +1,6 @@
 package com.wonit.persistence.util.converter;
 
-import com.wonit.entity.Infos;
+import com.wonit.core.user.Infos;
 import com.wonit.persistence.util.serializer.Serializer;
 import org.postgresql.util.PGobject;
 import org.springframework.core.convert.converter.Converter;

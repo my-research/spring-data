@@ -1,4 +1,4 @@
-package com.wonit.entity;
+package com.wonit.core.user;
 
 import lombok.Value;
 

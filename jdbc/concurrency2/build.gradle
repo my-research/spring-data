@@ -17,6 +17,8 @@ repositories {
 }
 
 dependencies {
+    implementation project(':jdbc:domain')
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-configuration-processor:2.7.0'

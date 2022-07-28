@@ -2,7 +2,7 @@ package com.wonit.persistence.repository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.wonit.entity.User;
+import com.wonit.core.user.User;
 import java.time.LocalDateTime;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.wonit.controller;
 
-import com.wonit.entity.User;
+import com.wonit.core.user.User;
 import com.wonit.persistence.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

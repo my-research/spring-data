@@ -8,4 +8,6 @@ include 'jdbc:concurrency2'
 findProject(':jdbc:concurrency2')
 include 'jdbc:basics'
 findProject(':jdbc:basics')
+include 'jdbc:domain'
+findProject(':jdbc:domain')?.name = 'domain'
 

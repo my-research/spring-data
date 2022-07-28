@@ -4,7 +4,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import com.wonit.entity.Info;
+import com.wonit.core.user.Info;
 import java.lang.reflect.Type;
 
 public class InfoSerializer implements JsonSerializer<Info> {

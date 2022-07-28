@@ -1,6 +1,6 @@
 package com.wonit.persistence.util.converter;
 
-import com.wonit.entity.Infos;
+import com.wonit.core.user.Infos;
 import com.wonit.persistence.util.serializer.Serializer;
 import java.sql.SQLException;
 import org.postgresql.util.PGobject;

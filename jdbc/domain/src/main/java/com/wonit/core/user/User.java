@@ -1,4 +1,4 @@
-package com.wonit.entity;
+package com.wonit.core.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -27,6 +27,10 @@ public class User {
 
     @Version
     private Integer version;
+
+    public void add() {
+        infos.add();
+    }
 
     public void pop() {
         infos.pop();

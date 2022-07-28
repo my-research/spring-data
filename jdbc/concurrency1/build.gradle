@@ -12,6 +12,9 @@ repositories {
 }
 
 dependencies {
+
+    implementation project(':jdbc:domain')
+
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.postgresql:postgresql:42.2.24.jre7'
