@@ -1,6 +1,0 @@
-rootProject.name = 'spring-data'
-
-include 'jdbc'
-include 'jdbc:producer'
-include 'jdbc:consumer'
-
