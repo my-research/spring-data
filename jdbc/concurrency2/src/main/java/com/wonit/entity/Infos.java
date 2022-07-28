@@ -8,7 +8,10 @@ import lombok.Value;
 public class Infos {
     List<Info> infos;
 
-    public void add() {
-        infos.add(Info.of(UUID.randomUUID().toString()));
+    public void pop() {
+        if (infos.isEmpty()) {
+            return;
+        }
+        infos.remove(0);
     }
 }

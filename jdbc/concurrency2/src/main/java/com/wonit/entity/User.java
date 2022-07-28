@@ -28,7 +28,7 @@ public class User {
     @Version
     private Integer version;
 
-    public void add() {
-        infos.add();
+    public void pop() {
+        infos.pop();
     }
 }
