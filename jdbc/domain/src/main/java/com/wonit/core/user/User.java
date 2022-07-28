@@ -9,6 +9,7 @@ import lombok.ToString;
 import lombok.With;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
+import org.springframework.data.domain.Persistable;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Table(name = "users")
@@ -24,9 +25,6 @@ public class User {
     @With
     private String name;
     private Infos infos;
-
-    @Version
-    private Integer version;
 
     public void add() {
         infos.add();

@@ -1,8 +1,6 @@
 CREATE TABLE IF NOT EXISTS users
 (
-    id BIGINT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(25) NOT NULL,
-    infos json NOT NULL,
-
-    version INT NOT NULL
+    infos json NOT NULL
 );

@@ -17,9 +17,9 @@ class UserRepositoryTest {
     UserRepository repository;
 
     @Test
-    void name() {
+    void save() {
         User user = User.builder()
-                .id(10L)
+                // .id(10L)
                 .name("jang")
                 .infos(Infos.of(new ArrayList<>()))
                 .build();
@@ -33,7 +33,7 @@ class UserRepositoryTest {
     void pop() throws InterruptedException {
         while (true) {
             Thread.sleep(100);
-            User user = repository.findById(10L).get();
+            User user = repository.findById(1L).get();
             user.pop();
             User save = repository.save(user);
             System.out.println(save);
