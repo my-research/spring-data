@@ -1,5 +1,6 @@
 package com.wonit.persistence.entity;
 
+import java.io.IOException;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
