@@ -3,12 +3,14 @@ rootProject.name = 'spring-data'
 // spring-data-jdbc
 include 'jdbc'
 include 'jdbc:concurrency1'
-findProject(':jdbc:concurrency1')
 include 'jdbc:concurrency2'
-findProject(':jdbc:concurrency2')
 include 'jdbc:basics'
-findProject(':jdbc:basics')
 include 'jdbc:domain'
-findProject(':jdbc:domain')?.name = 'domain'
 include 'jpa'
 
+include 'jpa-vs-jdbc'
+include 'jpa-vs-jdbc:domain'
+include 'jpa-vs-jdbc:app'
+include 'jpa-vs-jdbc:infrastructure'
+include 'jpa-vs-jdbc:infrastructure:spring-data-jpa'
+include 'jpa-vs-jdbc:infrastructure:spring-data-jdbc'
