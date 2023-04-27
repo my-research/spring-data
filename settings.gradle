@@ -8,6 +8,8 @@ include 'jdbc:basics'
 include 'jdbc:domain'
 include 'jpa'
 
+include 'learning-jdbc'
+
 include 'jpa-vs-jdbc'
 include 'jpa-vs-jdbc:domain'
 include 'jpa-vs-jdbc:app'
